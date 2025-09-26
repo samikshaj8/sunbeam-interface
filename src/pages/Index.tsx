@@ -3,7 +3,6 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { ShareThoughts } from "@/components/ui/share-thoughts";
 import { PostCard } from "@/components/ui/post-card";
 import { CrisisSupport } from "@/components/ui/crisis-support";
-import { OnlineSupporters } from "@/components/ui/online-supporters";
 import { QuickResources } from "@/components/ui/quick-resources";
 
 const Index = () => {
@@ -59,7 +58,6 @@ const Index = () => {
             {/* Right Column - Support & Resources */}
             <div className="space-y-6">
               <CrisisSupport />
-              <OnlineSupporters />
               <QuickResources />
             </div>
           </div>
